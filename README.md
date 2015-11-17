@@ -7,4 +7,5 @@
 * salvar o arquivo com o nome 'Gerenciar_participantes.csv'
 * rodar o comando 
 ` ruby umovme_integration.rb `
+* Como resultado deverá ser gerado o arquivo PSA001_V2.csv
 
