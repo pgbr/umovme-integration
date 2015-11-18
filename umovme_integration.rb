@@ -43,6 +43,8 @@ class UmovMeIntegration
       nome = csv_line[1]
 	  login = csv_line[0]
 	  password = csv_line[0].split('@')[0]
+	  password = password.sub '.', ''
+	  password = password.sub '-', ''
 	  alternative_identifier = login
 	  people_insert_command = "I;#{nome};#{login};#{password};#{alternative_identifier};inscritos\n"
 	  people_insert_command 
